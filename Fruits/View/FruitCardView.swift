@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct FruitCardView: View {
+    
     // MARK: PROPERTIES
     @State private var isAnimating: Bool = false
     
@@ -53,20 +54,19 @@ struct FruitCardView: View {
             .cornerRadius(20)
             .padding(.horizontal, 20)
         }// ZStack
-        
+         
         .onAppear {
-            withAnimation(.easeOut(duration: 0.5)) {
+            withAnimation(.easeOut(duration: 0.8)) {
                 isAnimating = true
             }
-        }
-    }
+        }    }
 }
 
     // MARK: PREVIEW
 
 struct FruitCardView_Previews: PreviewProvider {
     static var previews: some View {
-        FruitCardView(fruit: fruitsData[1])
+        FruitCardView(fruit: fruitsData[4])
             .previewLayout(.fixed(width: 320, height: 640))
     }
 }

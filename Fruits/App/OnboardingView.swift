@@ -15,6 +15,7 @@ struct OnboardingView: View {
         TabView{
             ForEach(fruits[0..<13]) { item in
                 FruitCardView(fruit: item)
+                
             }
         }
         .tabViewStyle(PageTabViewStyle())
