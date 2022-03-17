@@ -1,5 +1,5 @@
 
-## FRUITS
+## Fruits
 
 Fruits is an application for all people. The application is an encyclopedia of fruits, the fruits being presented one by one through a description, caloric value, nutrition, cultivation and culinary part.
 
@@ -13,4 +13,8 @@ The main objectives of this project are:
 
 In the end, the application can be restarted by toggle the switch in the Settings screen. 
 That way the app starts the onboarding process and shows the welcome screen again.
+
+## Showcase video
+
+https://user-images.githubusercontent.com/97792509/158891893-5be85bdb-35fe-4d99-9d9e-1738e130ca80.mp4
 
