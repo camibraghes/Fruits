@@ -33,8 +33,16 @@ struct SettingsView: View {
                     //Mark: Section 2
                     
                     //Mark: Section 3
-                   
-                    
+                    GroupBox(
+                        label: SettingsLabelView(labelText: "Application", labelImage: "apps.iphone")
+                    ) {
+                        SettingsRowView(name: "Developer", content: "JuniorC")
+                        SettingsRowView(name: "Compatibility", content: "iOS 14")
+                        SettingsRowView(name: "Website", linkLabel: "SwiftUI Masterclass", linkDestination: "swiftuimasterclass.com")
+                        SettingsRowView(name: "@Twiter", content: "@SwiftUIJuniorC")
+                        SettingsRowView(name: "SwiftUI", content: "2.0")
+                        SettingsRowView(name: "Version", content: "1.2.0")
+                    }
                 }
                 .navigationBarTitle(("Settings"), displayMode: .large)
                 .navigationBarItems(trailing:
