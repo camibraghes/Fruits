@@ -1,7 +1,8 @@
 
 FRUITS
 
-Fruits is an application for all people. The application is an encyclopedia of fruits, the fruits being presented one by one through a description, caloric value, nutrition, cultivation and culinary part.
+Fruits is an application for all people. The application is an encyclopedia of fruits,
+the fruits being presented one by one through a description, caloric value, nutrition, cultivation and culinary part.
 The main objectives of this project are: to develop a unique Onboarding screen and use the new AppStorage
                                          to save and load data using UserDefaults
                                          to create custom Views and create an outstanding Settings View
