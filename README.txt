@@ -9,5 +9,5 @@ The main objectives of this project are: to develop a unique Onboarding screen a
                                          to retrieve local data using Structs 
                                          to display multiple Views automatically with ForEach loop
                                          to use scroll view, horizontal view, vertical view containers
-
+In the end the application can be restart by toggle the switch in the Settings screen. That way the app starts the onboarding process and I will see the welcome screen again.
 
